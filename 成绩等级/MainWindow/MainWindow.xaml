@@ -1,0 +1,33 @@
+﻿<Window x:Class="成绩等次.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:成绩等次"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="成绩：" HorizontalAlignment="Left" Margin="268,187,0,0" VerticalAlignment="Top" Height="34" Width="45"/>
+        <Label Content="等次：" HorizontalAlignment="Left" Margin="268,226,0,0" VerticalAlignment="Top" Height="34" Width="44"/>
+        <TextBox x:Name="txtcj" HorizontalAlignment="Left" Margin="317,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="25"/>
+        <TextBox x:Name="txtdj" HorizontalAlignment="Left" Margin="317,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="22"/>
+        <Button Content="计算等次" HorizontalAlignment="Left" Margin="457,187,0,0" VerticalAlignment="Top" Height="34" Width="93" Click="Button_Click"/>
+        <Button Content="计算分数" HorizontalAlignment="Left" Margin="457,254,0,0" VerticalAlignment="Top" Height="36" Width="93" Click="Button_Click_1"/>
+        <Label Content="输入等次：" HorizontalAlignment="Left" Margin="247,265,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtgrade" HorizontalAlignment="Left" Margin="317,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="25"/>
+        <Label Content="显示分数：" HorizontalAlignment="Left" Margin="247,301,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.191,0.013"/>
+        <TextBlock HorizontalAlignment="Left" Margin="260,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="303" FontSize="36" FontFamily="Segoe UI Variable Small Semibold" FontWeight="Bold"><Run Language="zh-cn" Text="   "/><Run Text="成绩等级查询"/></TextBlock>
+        <Image Margin="7,33,552,39" Source="/ACU_Chalice.jpg" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.159"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.497"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <TextBox x:Name="txtfens" HorizontalAlignment="Left" Margin="317,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.45,-0.13" Height="25"/>
+
+    </Grid>
+</Window>
