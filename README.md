@@ -1,6 +1,6 @@
 # C#
 
-## 1000内找素数（for for each while）
+## 1000内找素数（for each while）
 
 ## 控制台简易计算器（for）
 ###   
