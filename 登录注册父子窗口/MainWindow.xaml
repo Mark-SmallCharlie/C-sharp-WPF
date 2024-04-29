@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Height="NaN" Margin="0,0,0,-5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="175*"/>
+            <ColumnDefinition Width="448*"/>
+            <ColumnDefinition Width="177*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="最大化" HorizontalAlignment="Left" Height="49" Margin="52,45,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click" FontSize="24" RenderTransformOrigin="0.531,0.555"/>
+        <Button Grid.Column="1" Content="还原" HorizontalAlignment="Center" Height="49" Margin="0,45,0,0" VerticalAlignment="Top" Width="122" FontSize="24" Click="Button_Click_1"/>
+        <Button Grid.Column="2" Content="最小化" HorizontalAlignment="Left" Height="49" Margin="19,45,0,0" VerticalAlignment="Top" Width="116" RenderTransformOrigin="0.218,0.555" FontSize="24" Click="Button_Click_2"/>
+        <Button Grid.Column="2" Content="关闭" HorizontalAlignment="Left" Height="32" Margin="39,369,0,0" VerticalAlignment="Top" Width="76" FontSize="24" Click="Button_Click_3"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="36" Margin="39,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="69" FontSize="22"><Run Language="zh-cn" Text="账号："/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="36" Margin="44,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="69" FontSize="22"><Run Language="zh-cn" Text="密码"/><Run Text="："/></TextBlock>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="36" Margin="113,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="258" FontSize="20"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="36" Margin="113,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="258" FontSize="20"/>
+        <Button Grid.Column="1" Content="注册" HorizontalAlignment="Left" Margin="113,316,0,0" VerticalAlignment="Top" Height="35" Width="80" FontSize="20" Click="Button_Click_4"/>
+        <Button Grid.Column="1" Content="登录" HorizontalAlignment="Left" Margin="280,316,0,0" VerticalAlignment="Top" Height="35" Width="91" FontSize="20" Click="Button_Click_5"/>
+
+    </Grid>
+</Window>
