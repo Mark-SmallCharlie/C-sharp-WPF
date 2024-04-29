@@ -1,5 +1,7 @@
 # C#
 
+基于NET的C# WPF设计，应用于visual studio的软件设计
+建立此仓库用于上传到云端及其他设备或用户的查看
 ## 1000内找素数（for each while）
 
 ## 控制台简易计算器（for）
