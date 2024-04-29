@@ -1,4 +1,4 @@
-# C#
+# C-sharp
 
 基于NET的C# WPF设计，应用于visual studio的软件设计
 建立此仓库用于上传到云端及其他设备或用户的查看
