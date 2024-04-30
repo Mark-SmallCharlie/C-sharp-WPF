@@ -1,0 +1,71 @@
+﻿<Window x:Class="学生档案管理系统.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:学生档案管理系统"
+        mc:Ignorable="d"
+        Title="MainWindow" Width="863">
+    <Grid Height="NaN" Margin="0,0,14,4" Width="NaN">
+        <Label Content="选择院系和班级：" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="选择院系：" HorizontalAlignment="Left" Margin="48,40,0,0" VerticalAlignment="Top"/>
+        <Label Content="选择班级：" HorizontalAlignment="Left" Margin="48,70,0,0" VerticalAlignment="Top"/>
+        <Label Content="查询条件：" HorizontalAlignment="Left" Margin="225,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="姓名：" HorizontalAlignment="Left" Margin="225,40,0,0" VerticalAlignment="Top"/>
+        <Label Content="班级：" HorizontalAlignment="Left" Margin="225,70,0,0" VerticalAlignment="Top"/>
+        <Label Content="性别：" HorizontalAlignment="Left" Margin="388,40,0,0" VerticalAlignment="Top"/>
+        <Label Content="日期：" HorizontalAlignment="Left" Margin="388,70,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.058,0.149"/>
+        <ComboBox x:Name="cboXibu" HorizontalAlignment="Left" Margin="118,44,0,0" VerticalAlignment="Top" Width="94"/>
+        <ComboBox x:Name="cboBanji" HorizontalAlignment="Left" Margin="118,70,0,0" VerticalAlignment="Top" Width="94"/>
+        <TextBox x:Name="txtname" HorizontalAlignment="Left" Margin="260,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtClass" HorizontalAlignment="Left" Margin="260,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtXingbie" HorizontalAlignment="Left" Margin="427,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtDate" HorizontalAlignment="Left" Margin="427,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="选择校区：" HorizontalAlignment="Left" Margin="565,10,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbtnAxiao" Content="A校区" HorizontalAlignment="Left" Margin="565,43,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbtnBiye" Content="毕业" HorizontalAlignment="Left" Margin="676,43,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbtnBxiao" Content="B校区" HorizontalAlignment="Left" Margin="565,80,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbtnZaidu" Content="在读" HorizontalAlignment="Left" Margin="676,62,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbtnXiuxue" Content="休学" HorizontalAlignment="Left" Margin="676,81,0,0" VerticalAlignment="Top"/>
+        <Label Content="学生类别：" HorizontalAlignment="Left" Margin="681,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="所属系部" HorizontalAlignment="Left" Margin="48,133,0,0" VerticalAlignment="Top"/>
+        <Label Content="所属班级" HorizontalAlignment="Left" Margin="48,159,0,0" VerticalAlignment="Top"/>
+        <Label Content="学生姓名" HorizontalAlignment="Left" Margin="48,189,0,0" VerticalAlignment="Top"/>
+        <Label Content="学生学号" HorizontalAlignment="Left" Margin="48,217,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtXibu" HorizontalAlignment="Left" Margin="118,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBanji" HorizontalAlignment="Left" Margin="118,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtname1" HorizontalAlignment="Left" Margin="118,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtXuehao" HorizontalAlignment="Left" Margin="118,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="所在校区" HorizontalAlignment="Left" Margin="300,133,0,0" VerticalAlignment="Top"/>
+        <Label Content="学生类别" HorizontalAlignment="Left" Margin="300,163,0,0" VerticalAlignment="Top"/>
+        <Label Content="学生性别" HorizontalAlignment="Left" Margin="300,189,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.033,0.519"/>
+        <Label Content="健康状态" HorizontalAlignment="Left" Margin="300,217,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtXiaobu" HorizontalAlignment="Left" Margin="363,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtLeibie" HorizontalAlignment="Left" Margin="363,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtXingbie1" HorizontalAlignment="Left" Margin="363,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtJiankan" HorizontalAlignment="Left" Margin="363,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="身份证" HorizontalAlignment="Left" Margin="531,133,0,0" VerticalAlignment="Top"/>
+        <Label Content="出生日期" HorizontalAlignment="Left" Margin="531,163,0,0" VerticalAlignment="Top"/>
+        <Label Content="家庭住址" HorizontalAlignment="Left" Margin="531,189,0,0" VerticalAlignment="Top"/>
+        <Label Content="电话" HorizontalAlignment="Left" Margin="531,217,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtShenfz" HorizontalAlignment="Left" Margin="587,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="txtDate1" HorizontalAlignment="Left" Margin="587,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134"/>
+        <TextBox x:Name="txtHome" HorizontalAlignment="Left" Margin="587,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134"/>
+        <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Margin="587,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" RenderTransformOrigin="0.217,0.015"/>
+        <Grid HorizontalAlignment="Left" Margin="19,256,0,23" Width="792" Height="NaN">
+            <CheckBox x:Name="chkXibu" Content="显示系部名称" HorizontalAlignment="Left" Margin="688,173,0,0" VerticalAlignment="Top"/>
+            <Label Content="女生数量" HorizontalAlignment="Left" Margin="390,168,0,0" VerticalAlignment="Top"/>
+            <Label Content="女生数量" HorizontalAlignment="Left" Margin="390,168,0,0" VerticalAlignment="Top"/>
+            <ListBox x:Name="lstJulu" HorizontalAlignment="Center" Height="125" Margin="0,12,0,0" VerticalAlignment="Top" Width="769" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="ListBox_SelectionChanged"/>
+        </Grid>
+        <Label Content="学生人数" HorizontalAlignment="Left" Margin="19,424,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNum" HorizontalAlignment="Left" Margin="77,428,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="男生数量" HorizontalAlignment="Left" Margin="209,424,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNannum" HorizontalAlignment="Left" Margin="272,428,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtNvnum" HorizontalAlignment="Left" Margin="469,428,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <CheckBox x:Name="chkBanji" Content="显示班级名称" HorizontalAlignment="Left" Margin="616,430,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <Button x:Name="btnFind" Content="查询" HorizontalAlignment="Left" Margin="740,136,0,0" VerticalAlignment="Top" Click="Button_Click" Width="51"/>
+        <Button x:Name="btnPrint" Content="打印" HorizontalAlignment="Left" Margin="740,182,0,0" VerticalAlignment="Top" Width="51"/>
+
+    </Grid>
+</Window>
