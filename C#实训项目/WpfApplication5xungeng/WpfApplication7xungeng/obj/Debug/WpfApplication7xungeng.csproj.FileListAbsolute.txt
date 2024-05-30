@@ -1,0 +1,32 @@
+F:\C#shixun\WpfApplication7xungeng\WpfApplication7xungeng\bin\Debug\WpfApplication7xungeng.exe.config
+F:\C#shixun\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng.csprojResolveAssemblyReference.cache
+F:\C#shixun\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\MainWindow.baml
+F:\C#shixun\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\MainWindow.g.cs
+F:\C#shixun\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\App.g.cs
+F:\C#shixun\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng_MarkupCompile.cache
+F:\C#shixun\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng.g.resources
+F:\C#shixun\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng.Properties.Resources.resources
+F:\C#shixun\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng.csproj.GenerateResource.Cache
+F:\C#shixun\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\Interop.MSCommLib.dll
+F:\C#shixun\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng.csproj.ResolveComReference.cache
+F:\C#shixun\WpfApplication7xungeng\WpfApplication7xungeng\bin\Debug\WpfApplication7xungeng.exe
+F:\C#shixun\WpfApplication7xungeng\WpfApplication7xungeng\bin\Debug\WpfApplication7xungeng.pdb
+F:\C#shixun\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng.exe
+F:\C#shixun\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng.pdb
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\9517-41\C#实训9514\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng.csproj.AssemblyReference.cache
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\9517-41\C#实训9514\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng.csproj.SuggestedBindingRedirects.cache
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\9517-41\C#实训9514\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng.csproj.ResolveComReference.cache
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\9517-41\C#实训9514\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\MainWindow.baml
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\9517-41\C#实训9514\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\MainWindow.g.cs
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\9517-41\C#实训9514\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\App.g.cs
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\9517-41\C#实训9514\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng_MarkupCompile.cache
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\9517-41\C#实训9514\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng.g.resources
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\9517-41\C#实训9514\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng.Properties.Resources.resources
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\9517-41\C#实训9514\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng.csproj.GenerateResource.cache
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\9517-41\C#实训9514\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng.csproj.CoreCompileInputs.cache
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\9517-41\C#实训9514\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng.exe
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\9517-41\C#实训9514\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng.pdb
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\9517-41\C#实训9514\WpfApplication7xungeng\WpfApplication7xungeng\bin\Debug\WpfApplication7xungeng.exe.config
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\9517-41\C#实训9514\WpfApplication7xungeng\WpfApplication7xungeng\bin\Debug\WpfApplication7xungeng.exe
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\9517-41\C#实训9514\WpfApplication7xungeng\WpfApplication7xungeng\bin\Debug\WpfApplication7xungeng.pdb
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\9517-41\C#实训9514\WpfApplication7xungeng\WpfApplication7xungeng\obj\Debug\WpfApplication7xungeng_Content.g.cs
