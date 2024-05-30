@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfApplication2deng.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="406" Width="536">
+    <Grid>
+        <Canvas HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="528">
+            <Canvas.Background>
+                <ImageBrush ImageSource="Resources/bg_title_lamp.png"/>
+            </Canvas.Background>
+        </Canvas>
+        <Grid HorizontalAlignment="Left" Height="286" Margin="0,69,0,0" VerticalAlignment="Top" Width="528">
+            <Grid.Background>
+                <ImageBrush ImageSource="Resources/bg.png"/>
+            </Grid.Background>
+            <Grid HorizontalAlignment="Left" Height="208" Margin="159,40,0,0" VerticalAlignment="Top" Width="192">
+                <Grid.Background>
+                    <ImageBrush ImageSource="Resources/bg_frame_descend.png"/>
+                </Grid.Background>
+                <Image HorizontalAlignment="Left" Height="70" Margin="75,15,0,0" VerticalAlignment="Top" Width="45" Source="Resources/lamp_off.png"/>
+                <Label Content="opean lamp" HorizontalAlignment="Left" Margin="55,99,0,0" VerticalAlignment="Top" Background="#FFFDFDFD" Width="83"/>
+                <Button x:Name="btnAlarmLampOpen" Content="Opean" HorizontalAlignment="Left" Margin="55,136,0,0" VerticalAlignment="Top" Width="83" Background="#FF3DB21B" Click="Button_Click_1"/>
+                <Button x:Name="btnAlarmLampClose" Content="Close" HorizontalAlignment="Left" Margin="55,163,0,0" VerticalAlignment="Top" Width="83" Background="#FF4AB632" Click="Button_Click_2"/>
+            </Grid>
+        </Grid>
+        <Canvas HorizontalAlignment="Left" Height="21" Margin="0,355,0,0" VerticalAlignment="Top" Width="528">
+            <Canvas.Background>
+                <ImageBrush ImageSource="Resources/bg_bottom_lamp.png"/>
+            </Canvas.Background>
+        </Canvas>
+    </Grid>
+</Window>

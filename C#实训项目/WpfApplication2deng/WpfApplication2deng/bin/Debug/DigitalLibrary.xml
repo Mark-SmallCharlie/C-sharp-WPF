@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DigitalLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:DigitalLibrary.ADAM4150FuncID">
+            <summary>
+            数字量命令名称枚举
+            </summary>
+        </member>
+        <member name="F:DigitalLibrary.ADAM4150FuncID.Send">
+            <summary>
+            获取开关量状态
+            </summary>
+        </member>
+        <member name="F:DigitalLibrary.ADAM4150FuncID.OnDO0">
+            <summary>
+            开启DO0
+            </summary>
+        </member>
+        <member name="F:DigitalLibrary.ADAM4150FuncID.OffDO0">
+            <summary>
+            关闭DO0
+            </summary>
+        </member>
+        <member name="F:DigitalLibrary.ADAM4150FuncID.OnDO1">
+            <summary>
+            开启DO1
+            </summary>
+        </member>
+        <member name="F:DigitalLibrary.ADAM4150FuncID.OffDO1">
+            <summary>
+            关闭DO1
+            </summary>
+        </member>
+        <member name="F:DigitalLibrary.ADAM4150FuncID.OnDO2">
+            <summary>
+            开启DO2
+            </summary>
+        </member>
+        <member name="F:DigitalLibrary.ADAM4150FuncID.OffDO2">
+            <summary>
+            关闭DO2
+            </summary>
+        </member>
+        <member name="T:DigitalLibrary.ADAM4150">
+            <summary>
+            ADAM4150（数字量）
+            </summary>
+        </member>
+        <member name="F:DigitalLibrary.ADAM4150.DI0">
+            <summary>
+            DI0
+            </summary>
+        </member>
+        <member name="F:DigitalLibrary.ADAM4150.DI1">
+            <summary>
+            DI1
+            </summary>
+        </member>
+        <member name="F:DigitalLibrary.ADAM4150.DI2">
+            <summary>
+            DI2
+            </summary>
+        </member>
+        <member name="F:DigitalLibrary.ADAM4150.DI3">
+            <summary>
+            DI3
+            </summary>
+        </member>
+        <member name="F:DigitalLibrary.ADAM4150.DI4">
+            <summary>
+            DI4
+            </summary>
+        </member>
+        <member name="F:DigitalLibrary.ADAM4150.DI5">
+            <summary>
+            DI5
+            </summary>
+        </member>
+        <member name="F:DigitalLibrary.ADAM4150.DI6">
+            <summary>
+            DI6
+            </summary>
+        </member>
+        <member name="F:DigitalLibrary.ADAM4150.dicFuncByte">
+            <summary>
+            枚举、命令键值对
+            </summary>
+        </member>
+        <member name="M:DigitalLibrary.ADAM4150.#ctor(DigitalLibrary.ComSettingModel)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="settingModel">串口、通道号设置模型</param>
+        </member>
+        <member name="M:DigitalLibrary.ADAM4150.OnOff(DigitalLibrary.ADAM4150FuncID)">
+            <summary>
+            执行开关命令
+            </summary>
+            <param name="FuncID">命令名称枚举</param>
+            <returns>是否执行成功</returns>
+        </member>
+        <member name="M:DigitalLibrary.ADAM4150.OpCMD(System.Byte[])">
+            <summary>
+            执行命令
+            </summary>
+            <param name="cmd">传入的命令</param>
+            <returns>命令是否发送成功</returns>
+        </member>
+        <member name="M:DigitalLibrary.ADAM4150.SetData">
+            <summary>
+            获取状态数据
+            </summary>
+        </member>
+        <member name="M:DigitalLibrary.ADAM4150.CheckIsSuccess(System.Byte[],System.Byte[])">
+            <summary>
+            验证返回数据
+            </summary>
+            <param name="byte1"></param>
+            <param name="byte2"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DigitalLibrary.ComSettingModel">
+            <summary>
+            串口、通道号设置模型
+            </summary>
+        </member>
+        <member name="P:DigitalLibrary.ComSettingModel.DigitalQuantityCom">
+            <summary>
+            数字量串口号
+            </summary>
+        </member>
+    </members>
+</doc>

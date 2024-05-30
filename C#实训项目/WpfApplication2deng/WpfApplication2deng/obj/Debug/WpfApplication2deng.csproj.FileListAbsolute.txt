@@ -1,0 +1,16 @@
+F:\C#shixun\WpfApplication2deng\WpfApplication2deng\bin\Debug\WpfApplication2deng.exe.config
+F:\C#shixun\WpfApplication2deng\WpfApplication2deng\bin\Debug\WpfApplication2deng.exe
+F:\C#shixun\WpfApplication2deng\WpfApplication2deng\bin\Debug\WpfApplication2deng.pdb
+F:\C#shixun\WpfApplication2deng\WpfApplication2deng\bin\Debug\ComLibrary.dll
+F:\C#shixun\WpfApplication2deng\WpfApplication2deng\bin\Debug\DigitalLibrary.dll
+F:\C#shixun\WpfApplication2deng\WpfApplication2deng\bin\Debug\DigitalLibrary.xml
+F:\C#shixun\WpfApplication2deng\WpfApplication2deng\obj\Debug\MainWindow.baml
+F:\C#shixun\WpfApplication2deng\WpfApplication2deng\obj\Debug\MainWindow.g.cs
+F:\C#shixun\WpfApplication2deng\WpfApplication2deng\obj\Debug\App.g.cs
+F:\C#shixun\WpfApplication2deng\WpfApplication2deng\obj\Debug\WpfApplication2deng_MarkupCompile.cache
+F:\C#shixun\WpfApplication2deng\WpfApplication2deng\obj\Debug\WpfApplication2deng.g.resources
+F:\C#shixun\WpfApplication2deng\WpfApplication2deng\obj\Debug\WpfApplication2deng.Properties.Resources.resources
+F:\C#shixun\WpfApplication2deng\WpfApplication2deng\obj\Debug\WpfApplication2deng.csproj.GenerateResource.Cache
+F:\C#shixun\WpfApplication2deng\WpfApplication2deng\obj\Debug\WpfApplication2deng.exe
+F:\C#shixun\WpfApplication2deng\WpfApplication2deng\obj\Debug\WpfApplication2deng.pdb
+F:\C#shixun\WpfApplication2deng\WpfApplication2deng\obj\Debug\WpfApplication2deng.csprojResolveAssemblyReference.cache
