@@ -1,0 +1,13 @@
+F:\C#shixun\WpfApplication10jiankon\WpfApplication10jiankon\obj\Debug\WpfApplication10jiankon.csprojResolveAssemblyReference.cache
+F:\C#shixun\WpfApplication10jiankon\WpfApplication10jiankon\obj\Debug\MainWindow.baml
+F:\C#shixun\WpfApplication10jiankon\WpfApplication10jiankon\obj\Debug\MainWindow.g.cs
+F:\C#shixun\WpfApplication10jiankon\WpfApplication10jiankon\obj\Debug\App.g.cs
+F:\C#shixun\WpfApplication10jiankon\WpfApplication10jiankon\obj\Debug\WpfApplication10jiankon_MarkupCompile.cache
+F:\C#shixun\WpfApplication10jiankon\WpfApplication10jiankon\obj\Debug\WpfApplication10jiankon.g.resources
+F:\C#shixun\WpfApplication10jiankon\WpfApplication10jiankon\obj\Debug\WpfApplication10jiankon.Properties.Resources.resources
+F:\C#shixun\WpfApplication10jiankon\WpfApplication10jiankon\obj\Debug\WpfApplication10jiankon.csproj.GenerateResource.Cache
+F:\C#shixun\WpfApplication10jiankon\WpfApplication10jiankon\bin\Debug\WpfApplication10jiankon.exe
+F:\C#shixun\WpfApplication10jiankon\WpfApplication10jiankon\bin\Debug\WpfApplication10jiankon.pdb
+F:\C#shixun\WpfApplication10jiankon\WpfApplication10jiankon\bin\Debug\IPCameraDll.dll
+F:\C#shixun\WpfApplication10jiankon\WpfApplication10jiankon\obj\Debug\WpfApplication10jiankon.exe
+F:\C#shixun\WpfApplication10jiankon\WpfApplication10jiankon\obj\Debug\WpfApplication10jiankon.pdb
