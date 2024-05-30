@@ -1,0 +1,16 @@
+F:\C#shixun\WpfApplication4zidonhonwai\WpfApplication4zidonhonwai\bin\Debug\WpfApplication4zidonhonwai.exe.config
+F:\C#shixun\WpfApplication4zidonhonwai\WpfApplication4zidonhonwai\bin\Debug\WpfApplication4zidonhonwai.exe
+F:\C#shixun\WpfApplication4zidonhonwai\WpfApplication4zidonhonwai\bin\Debug\WpfApplication4zidonhonwai.pdb
+F:\C#shixun\WpfApplication4zidonhonwai\WpfApplication4zidonhonwai\bin\Debug\ComLibrary.dll
+F:\C#shixun\WpfApplication4zidonhonwai\WpfApplication4zidonhonwai\bin\Debug\DigitalLibrary.dll
+F:\C#shixun\WpfApplication4zidonhonwai\WpfApplication4zidonhonwai\bin\Debug\DigitalLibrary.xml
+F:\C#shixun\WpfApplication4zidonhonwai\WpfApplication4zidonhonwai\obj\Debug\WpfApplication4zidonhonwai.csprojResolveAssemblyReference.cache
+F:\C#shixun\WpfApplication4zidonhonwai\WpfApplication4zidonhonwai\obj\Debug\MainWindow.baml
+F:\C#shixun\WpfApplication4zidonhonwai\WpfApplication4zidonhonwai\obj\Debug\MainWindow.g.cs
+F:\C#shixun\WpfApplication4zidonhonwai\WpfApplication4zidonhonwai\obj\Debug\App.g.cs
+F:\C#shixun\WpfApplication4zidonhonwai\WpfApplication4zidonhonwai\obj\Debug\WpfApplication4zidonhonwai_MarkupCompile.cache
+F:\C#shixun\WpfApplication4zidonhonwai\WpfApplication4zidonhonwai\obj\Debug\WpfApplication4zidonhonwai.g.resources
+F:\C#shixun\WpfApplication4zidonhonwai\WpfApplication4zidonhonwai\obj\Debug\WpfApplication4zidonhonwai.Properties.Resources.resources
+F:\C#shixun\WpfApplication4zidonhonwai\WpfApplication4zidonhonwai\obj\Debug\WpfApplication4zidonhonwai.csproj.GenerateResource.Cache
+F:\C#shixun\WpfApplication4zidonhonwai\WpfApplication4zidonhonwai\obj\Debug\WpfApplication4zidonhonwai.exe
+F:\C#shixun\WpfApplication4zidonhonwai\WpfApplication4zidonhonwai\obj\Debug\WpfApplication4zidonhonwai.pdb

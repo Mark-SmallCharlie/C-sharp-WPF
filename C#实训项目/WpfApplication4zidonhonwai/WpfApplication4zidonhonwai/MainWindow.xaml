@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfApplication4zidonhonwai.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded_1">
+    <Grid>
+        <Canvas HorizontalAlignment="Left" Height="63" VerticalAlignment="Top" Width="517">
+            <Canvas.Background>
+                <ImageBrush ImageSource="Resources/bg_title_lamp.png"/>
+            </Canvas.Background>
+        </Canvas>
+        <Grid HorizontalAlignment="Left" Height="230" Margin="0,63,0,0" VerticalAlignment="Top" Width="517">
+            <Grid.Background>
+                <ImageBrush ImageSource="Resources/bg.png"/>
+            </Grid.Background>
+            <Grid HorizontalAlignment="Left" Height="179" Margin="155,16,0,0" VerticalAlignment="Top" Width="180">
+                <Grid.Background>
+                    <ImageBrush ImageSource="Resources/bg_frame_descend.png"/>
+                </Grid.Background>
+                <Image HorizontalAlignment="Left" Height="78" Margin="49,21,0,0" VerticalAlignment="Top" Width="86" Source="Resources/warnlight_1.png"/>
+                <Label x:Name="labStatus" Content="N/A" VerticalAlignment="Top" Margin="49,125,45,0" HorizontalContentAlignment="Center" Background="White"/>
+            </Grid>
+        </Grid>
+        <Canvas HorizontalAlignment="Left" Height="27" Margin="0,293,0,0" VerticalAlignment="Top" Width="517">
+            <Canvas.Background>
+                <ImageBrush ImageSource="Resources/bg_bottom_lamp.png"/>
+            </Canvas.Background>
+        </Canvas>
+
+    </Grid>
+</Window>
