@@ -36,6 +36,8 @@ namespace WpfApplication4zidonhonwai
             timer.Interval = TimeSpan.FromSeconds(1);
             timer.Tick += timer_Tick;
         }
+        private ADAM4150 adam4150;
+        private DispatcherTimer timer;
         void timer_Tick(object sender, EventArgs e)
         {
             adam4150.SetData();
@@ -48,9 +50,6 @@ namespace WpfApplication4zidonhonwai
                 labStatus.Content = "未感应到红外";
             }
         }
-        private ADAM4150 adam4150;
-        private DispatcherTimer timer;
-
         private void Window_Loaded_1(object sender, RoutedEventArgs e)
         {
             timer.Start();
