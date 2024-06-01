@@ -66,7 +66,7 @@ namespace WpfApplication7xungeng
             }
         }
 
-        private void btn2_Click(object sender, RoutedEventArgs e)
+        private void btn2_Click(object sender, RoutedEventArgs e)         //Del xungen CountNumber
         {
             string serialNumber = solid.GetDivceSerialNumber();
             if (serialNumber == "-1")
