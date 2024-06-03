@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "读卡发卡/1.0.0": {
+        "dependencies": {
+          "MWRDemoDll": "1.0.0.0"
+        },
+        "runtime": {
+          "读卡发卡.dll": {}
+        }
+      },
+      "MWRDemoDll/1.0.0.0": {
+        "runtime": {
+          "MWRDemoDll.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "读卡发卡/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MWRDemoDll/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
