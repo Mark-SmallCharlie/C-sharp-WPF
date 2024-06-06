@@ -1,0 +1,5 @@
+while (1)
+{
+    HAL_GPIO_TogglePin(BUZZ_GPIO_Port, BUZZ_Pin)
+    HAL_Delay(1);
+}
