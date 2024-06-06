@@ -1,5 +1,0 @@
-HAL_Delay(3000);
-while(1)
-{
-  HAL_GPIO_WirtenPin(GPIOE,LED5_Pin|LED6_Pin|LED7_Pin|LED8_Pin,GPIO_PIN_RESET);
-}
