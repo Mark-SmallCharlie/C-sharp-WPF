@@ -1,1 +1,6 @@
-
+//闪烁0.5s
+while(1)
+{
+  HAL_GPIO_Toggle(GPIOE,LED1_Pin|LED2_Pin|LED3_Pin|LED4_Pin);
+  HAL_Delay(500);
+}
