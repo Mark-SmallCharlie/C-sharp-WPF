@@ -1,1 +1,20 @@
 
+uint8_t count=0;
+while(1)
+  {
+  //wu 
+  }
+
+void HAL_TIM_PeriodElapsedCallback(HandleTypDef *htim)  //跳转的函数
+{
+  if(htim=>Instance ==TIM6)
+  {
+    num=num>>1;
+    HAL_GPIO_WirtPin(GPIOE,num,GPIO_Pin_RESET);
+    if(num=0x00)
+    {
+      num=0x100;
+      HAL_GPIO_WirtPin(GPIOE,0xff,GPIO_Pin_SET);
+    }
+  }
+}
