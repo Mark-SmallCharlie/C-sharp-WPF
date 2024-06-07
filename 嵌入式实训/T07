@@ -2,8 +2,24 @@ uint8_t Key_Flag;
 
 while(1)
   {
-
+    switch(Key_count)
+    case1:
+    {
+      HAL_GPIO_WriePin(GPIOE,LED1_Pin,GPIO_PIN_RESET);
+      break;
+    }
+    case2:
+    {
+      HAL_GPIO_WriePin(GPIOE,LED1_Pin,|LED2_Pin,GPIO_PIN_RESET);
+      break;
+    }
+    case3:
+    {
+      HAL_GPIO_WriePin(GPIOE,LED2_Pin,GPIO_PIN_SET);
+      break;
+    }
   }
+
 
 void HAL_GPIO_EXIT_Callback(uint6_t GPIO_Pin)  //跳转的函数
 {
