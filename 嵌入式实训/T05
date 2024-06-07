@@ -1,1 +1,19 @@
+uint8_t count=0;
 
+while(1)
+{
+  if(count==1)
+  {
+    HAL_GPIO_WirtrnPin(GPIOE,LED5_Pin|LED6_Pin|LED7_Pin|LED8_Pin,GPIO_Pin_RESET);
+  }
+  if(count==4)
+  {
+    HAL_GPIO_WirtrnPin(GPIOE,LED5_Pin|LED6_Pin|LED7_Pin|LED8_Pin,GPIO_Pin_SET);
+    count = 0;
+  }
+}
+
+void HAL_TIM_PeriodElapsedCallback(HandleTypDef *htim)  //跳转的函数
+{
+  count ++;
+}
