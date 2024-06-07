@@ -1,1 +1,30 @@
+HAL_UART_Receive(&huart1,RX_BUFF,5);
+while(1)
+{
+  if(RX_Flag==1)
+  {
+    if(strstr ((const char*) RX_BUFF,"OPEN3")!=NULL)
+    {
+    HAL_GPIO_WrienPin(LED3_GPIO_Pin,LED3_Pin,GPIO_PIN_RESET);
+    HAL_GPIO_WrienPin(LED4_GPIO_Pin,LED4_Pin,GPIO_PIN_SET);
+    }  
+  }
+  else if(strstr ((const char*) RX_BUFF,"OPEN4")!=NULL)
+  {
+    HAL_GPIO_WrienPin(LED3_GPIO_Pin,LED3_Pin,GPIO_PIN_SET);
+    HAL_GPIO_WrienPin(LED4_GPIO_Pin,LED4_Pin,GPIO_PIN_RESET);
+  }
+else 
+  {
+  HAL_GPIO_WrienPin(LED3_GPIO_Pin,LED3_Pin|LED4_Pin,GPIO_PIN_SET);
+  }
+RX_Flag=0;
+memset(RX_BUFF,0,10);
+}
+HAL_Delay(500);
 
+void HAL_UART_RXCpltCallback(UART_HandleTypeDef*huart)
+  {
+  RX_Flag=1;
+  HAL_UART_Receive(&huart1,RX_BUFF,5);
+  }
