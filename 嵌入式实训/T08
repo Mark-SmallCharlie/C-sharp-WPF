@@ -1,1 +1,30 @@
+uint8_t Key_Flag=0;
+uint8_t Buzz_Count=0;
 
+void BUZZ(void);
+
+whlie(1)
+{  
+  if(Key_Flag==1)
+    {
+      BUZZ();
+      if(Buzz_count==100)
+      {
+      HAL_GPIO_ToggledPin(GPIOE,LED1_Pin);
+      Buzz_Count=0;
+      }
+    }
+else HAL_GPIO_ToggledPin(GPIOE,LED1_Pin,GPIO_PIN_SET);
+}
+
+void BUZZ(void)
+{
+  Buzz_Count++;
+  HAL_GPIO_ToggledPin(BUZZ_GPIO_Port,BUZZ_Pin);
+  HAL_Delay(1);
+}
+
+void HAL_GPIO_EXIT_Callback(uint6_t GPIO_Pin)  //跳转的函数
+{
+   HAL_Flag=!key_Flag;
+}
