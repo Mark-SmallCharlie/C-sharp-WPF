@@ -1,1 +1,7 @@
+uint8_t TX_BUFF[]="Hello STM32!\r\n";
 
+while(1)
+{
+  HAL_UART_Transmit(&huart1,TX_BUFF,sizeof RX_BUFF,100);
+  HAL_Delay(2000);
+}
