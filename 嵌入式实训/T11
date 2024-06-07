@@ -1,1 +1,26 @@
 
+
+HAL_TIM_SET_COMPARE (&htim4 ,TIM_CHANNEL_3);
+while (l)
+{
+    if(Pwm_Value ==0)
+    {
+      Pwm_Mode=count up ;
+     }   
+  else if(Pwm_Value ==100)
+    {
+      Pwm_Mode =count_domm ;
+    }
+  
+  if(Pwm_Mode--count_u)
+    {
+      Pwmm_Value -+
+    }
+  else if(Pwn_Mode =- count_down)
+    {
+      Pwm Valpe --;
+    }
+
+__HAL_TIM_SET_COMPARE (&htim4 ,TIM_CHANNEL_3 ,Pwm_Value );
+HAI_DelaY (50);
+}
