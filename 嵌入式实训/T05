@@ -1,4 +1,4 @@
-uint8_t count=0;
+uint8_t key_Flag=0;
 
 if(HAL_TIM_Base_Start_IT(&htim6)!=HAL_OK
   {
@@ -7,18 +7,17 @@ if(HAL_TIM_Base_Start_IT(&htim6)!=HAL_OK
 
 while(1)
 {
-  if(count==1)
+  if(key_Flag==1)
   {
-    HAL_GPIO_WirtrnPin(GPIOE,LED5_Pin|LED6_Pin|LED7_Pin|LED8_Pin,GPIO_Pin_RESET);
+    HAL_GPIO_WirtrnPin(GPIOE,LED5_Pin|LED6_Pin,GPIO_Pin_RESET);
   }
-  if(count==4)
+  else
   {
-    HAL_GPIO_WirtrnPin(GPIOE,LED5_Pin|LED6_Pin|LED7_Pin|LED8_Pin,GPIO_Pin_SET);
-    count = 0;
+    HAL_GPIO_WirtrnPin(GPIOE,LED5_Pin|LED6_Pin,GPIO_Pin_SET);
   }
 }
 
-void HAL_TIM_PeriodElapsedCallback(HandleTypDef *htim)  //跳转的函数
+void HAL_GPIO_EXIT_Callback(uint6_t GPIO_Pin)  //跳转的函数
 {
-  count ++;
+  key_Flag=!key_Flag;
 }
