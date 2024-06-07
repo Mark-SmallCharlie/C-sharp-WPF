@@ -1,1 +1,34 @@
+uint8_t count=0;
+uint8_t Key_Flag;
+
+while(1)
+{
+  if(key_Flag==1)
+  {
+    if(count==2)
+    {
+    HAL_GPIO_WirtrnPin(GPIOE,LED3_Pin|LED4_Pin,GPIO_Pin_RESET);
+    }  
+     if(count==4)
+    {
+    count=0;
+    HAL_GPIO_WirtrnPin(GPIOE,LED3_Pin|LED4_Pin,GPIO_Pin_SET);
+    }
+  else
+  {
+   HAL_GPIO_WirtrnPin(GPIOE,LED3_Pin|LED4_Pin,GPIO_Pin_SET); 
+  }
+}
+
+vo1d HAL_GPIO_EXTI_Callback(uintl6_t GPIo_Pin)
+{
+Key_Flag = !key_Flag ;
+}
+void HAL_TIM_PeriodElapsedCallback(HandleTypDef *htim)  //跳转的函数
+{
+  if(Key_Flag==1)
+  {
+  count ++;
+  }
+}
 
