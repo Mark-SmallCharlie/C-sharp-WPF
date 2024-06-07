@@ -1,1 +1,22 @@
+uint8_t Key_Flag;
 
+while(1)
+  {
+
+  }
+
+void HAL_GPIO_EXIT_Callback(uint6_t GPIO_Pin)  //跳转的函数
+{
+  if(count_Pin==KET1_PIN)
+  {
+    HAL_Delay(5);
+    if(GPIO_Pin==KEY1_Pin)
+      {
+        Key_Count++;
+        if(Key_Count==4)
+        {
+          Key_Count=1;
+        }
+      }
+  }
+}
