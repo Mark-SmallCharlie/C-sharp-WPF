@@ -1,0 +1,20 @@
+﻿<Window x:Class="目录管理.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:目录管理"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="119*"/>
+            <ColumnDefinition Width="281*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btngetml" Content="获取当前程序运行目录" HorizontalAlignment="Left" Margin="128,133,0,0" VerticalAlignment="Top" Height="33" Width="222" Click="Button_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="btndelml" Content="删除目录" HorizontalAlignment="Left" Margin="281,133,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.391,0.674" Height="33" Width="133" Grid.Column="1" Click="btndelml_Click"/>
+        <TextBox x:Name="txtml" HorizontalAlignment="Left" Margin="128,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="524" Height="59" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnsetml" Grid.Column="1" Content="创建目录" HorizontalAlignment="Left" Margin="138,133,0,0" VerticalAlignment="Top" Height="33" Width="114" Click="btnsetml_Click"/>
+
+    </Grid>
+</Window>
