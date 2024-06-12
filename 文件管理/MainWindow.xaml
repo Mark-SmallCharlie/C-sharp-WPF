@@ -1,0 +1,16 @@
+﻿<Window x:Class="文件管理.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:文件管理"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtwirte" HorizontalAlignment="Center" Margin="0,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="642" Height="68" TextChanged="txtwirte_TextChanged"/>
+        <Button x:Name="btnWirte" Content="写入文件" HorizontalAlignment="Left" Margin="79,0,0,0" VerticalAlignment="Center" Height="46" Width="154" Click="btnWirte_Click" FontSize="22"/>
+        <Button x:Name="btnRead" Content="读取文件" HorizontalAlignment="Left" Margin="561,0,0,0" VerticalAlignment="Center" Height="46" Width="160" Click="btnRead_Click" FontSize="22"/>
+        <TextBox x:Name="txtread" HorizontalAlignment="Center" Margin="0,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="642" Height="64" TextChanged="txtread_TextChanged"/>
+
+    </Grid>
+</Window>
