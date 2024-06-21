@@ -1,0 +1,23 @@
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\new student2.csproj.AssemblyReference.cache
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\App.g.cs
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\new student2_MarkupCompile.cache
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\new student2_MarkupCompile.lref
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\bin\Debug\net6.0-windows\new student2.exe
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\bin\Debug\net6.0-windows\new student2.deps.json
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\bin\Debug\net6.0-windows\new student2.runtimeconfig.json
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\bin\Debug\net6.0-windows\new student2.dll
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\bin\Debug\net6.0-windows\new student2.pdb
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\new student2.g.resources
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\new student2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\new student2.AssemblyInfoInputs.cache
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\new student2.AssemblyInfo.cs
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\new student2.csproj.CoreCompileInputs.cache
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\new student2.dll
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\refint\new student2.dll
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\new student2.pdb
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\new student2.genruntimeconfig.cache
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\ref\new student2.dll
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\Editwindow.g.cs
+D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\new student2\new student2\obj\Debug\net6.0-windows\Editwindow.baml

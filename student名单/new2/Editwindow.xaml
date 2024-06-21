@@ -1,0 +1,22 @@
+﻿<Window x:Class="new_student2.Editwindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:new_student2"
+        mc:Ignorable="d"
+        Title="EditWindow" Height="450" Width="800" FontSize="32">
+    <Grid>
+        <Label Content="班级：" HorizontalAlignment="Left" Margin="181,38,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtClass" HorizontalAlignment="Left" Margin="273,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183"/>
+        <Label Content="学号：" HorizontalAlignment="Left" Margin="181,106,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="273,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183"/>
+        <Label Content="姓名：" HorizontalAlignment="Left" Margin="181,167,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="273,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183"/>
+        <Label Content="性别：" HorizontalAlignment="Left" Margin="181,243,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtGender" HorizontalAlignment="Left" Margin="273,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183"/>
+        <Button x:Name="btnOk" Content="确定" HorizontalAlignment="Left" Margin="471,41,0,0" VerticalAlignment="Top" Width="136" Click="btnOk_Click"/>
+        <Button x:Name="btnCancel" Content="取消" HorizontalAlignment="Left" Margin="471,246,0,0" VerticalAlignment="Top" Width="136" Click="btnCancel_Click"/>
+
+    </Grid>
+</Window>
