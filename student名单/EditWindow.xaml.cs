@@ -52,7 +52,7 @@ namespace student名单
         {
             if(student == null)
             {
-                student = new Student();
+                _student = new Student();
             }
             student.Class=txtClass.Text;
             student.Name = txtName.Text;
