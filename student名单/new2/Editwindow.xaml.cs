@@ -45,7 +45,7 @@ namespace new_student2
         {
             if (student == null)
             {
-                student = new Student();
+                _student = new Student();
             }
             student.Class = txtClass.Text;
             student.Id = txtId.Text;
