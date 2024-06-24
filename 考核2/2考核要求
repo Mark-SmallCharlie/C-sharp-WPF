@@ -4,3 +4,24 @@
 FileStorage类要对文件进行生成并保存文件和设置open函数；
 开始用定时器进行每一秒一个随机数并显示在文本框上，
 停止在文本框上进行显示，并打开TXT文件（调用open函数）；
+
+编写步骤：
+1.头文件添加Threading，timer；
+2.添加FileStorage类；
+3.private Dispatchtime time =new Dispatchtimer（）； 
+  private FileStorage fileStorage = 
+                      new FileStorage(@"D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\考核2\考核2\Numbers.txt");
+4.在public 头部函数添加 timer.Interval =TimeSpan.FromSeconds(1);
+                       timer.Tick += ShowRandomNum;
+5.定义计时器：private void ShowRandomNum(object? sender, EventArgs e)
+              {
+                  Random random = new Random();
+                  int num = random.Next(1, 100);
+                  txt1.Text = num.ToString();
+              }
+6.在开始和结束里补充代码；
+
+7.在类里判断文件是否存在否则创建；
+8. private FileInfo file;
+9.添加Add函数；
+10.添加open函数，并用try，catch 函数进行异常处理判断；
