@@ -29,6 +29,7 @@ namespace 考核2
             timer.Tick += ShowRandomNum;
         }
 
+        private DispatcherTimer timer = new DispatcherTimer();
 
         private void ShowRandomNum(object? sender, EventArgs e)
         {
@@ -39,10 +40,8 @@ namespace 考核2
 
         private FileStorage fileStorage = 
                 new FileStorage(@"D:\Users\XKY\Documents\AA学习小组PPT等文件\C# WPF\考核2\考核2\Numbers.txt");
-        private FileInfo file;
-        private StreamWriter writer;
-        private DispatcherTimer timer = new DispatcherTimer();
-
+        //private FileInfo file;
+        //private StreamWriter writer；
         
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
