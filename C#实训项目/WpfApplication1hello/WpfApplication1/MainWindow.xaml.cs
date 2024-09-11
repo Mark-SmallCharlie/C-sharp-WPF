@@ -26,9 +26,10 @@ namespace WpfApplication1
         {
             InitializeComponent();
 
-            player = new LEDPlayer("COM8");
+            player = new LEDPlayer("COM8");  //使用指定的COM口序号创建LED操作对象，并赋值player成员变量
         }
-        private LEDPlayer player;
+
+        private LEDPlayer player;//LED操作对象成员
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
