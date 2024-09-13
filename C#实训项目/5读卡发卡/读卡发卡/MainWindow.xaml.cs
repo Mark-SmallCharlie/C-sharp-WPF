@@ -25,20 +25,25 @@ namespace 读卡发卡
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            //读取卡片信息，返回结果
             ResultMessage ret = MifareRFEYE.Instance.Search();
+            //判断卡片信息是否读取成功
             if(ret.Result!=Result.Success)
             {
-                MessageBox.Show(ret.OutInfo);
+                MessageBox.Show(ret.OutInfo);    //
                 return;
             }
             lab1.Content = ret.Model;
-            MWRDemoDll.MifareRFEYE.Instance.Auth();
+            //执行卡片认证
+            ret = MWRDemoDll.MifareRFEYE.Instance.Auth();
+            //执行卡片内容读取操作，并得到卡片数据
             ResultMessage data = MifareRFEYE.Instance.Read();
             if (data.Result == Result.Success)
             {
                 MessageBox.Show(ret.OutInfo);
                 return;
             }
+            //转换成二进制；
             string mes = Encoding.Default.GetString((byte[])data.Model);
             txt1.Text = mes;
         }
@@ -52,7 +57,7 @@ namespace 读卡发卡
                 return;
             }
             lab1.Content = ret.Model;
-            MWRDemoDll.MifareRFEYE.Instance.Auth();
+            ret = MWRDemoDll.MifareRFEYE.Instance.Auth();
             string databuff = txt1.Text;
             if (databuff.Length > 16)
             {
