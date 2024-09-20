@@ -69,11 +69,11 @@ namespace 读卡发卡
             ResultMessage msg=MWRDemoDll.MifareRFEYE.Instance.Write(CardDataKind.CardID,data);
             if (msg.Result != Result.Success)
             {
-                MessageBox.Show("写入成功！");
+                MessageBox.Show(msg.OutInfo);
             }
             else
             {
-                MessageBox.Show(msg.OutInfo);
+                MessageBox.Show("写入成功！");
             }
         }
     }
