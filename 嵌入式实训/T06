@@ -1,7 +1,7 @@
 uint8_t count=0;
 while(1)
   {
-    if(Kry_Flag==1)
+    if(Key_Flag==1)
     {  
       HAL_GPIO_TogglePin(LED1_GPIO_Port,LED1_Pin);
       HAL_Delay(500);
