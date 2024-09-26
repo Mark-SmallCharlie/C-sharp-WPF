@@ -1,3 +1,4 @@
+//按键控制定时器实现2个LED同时闪烁，周期4s；
 uint8_t count=0;
 uint8_t Key_Flag;
 
