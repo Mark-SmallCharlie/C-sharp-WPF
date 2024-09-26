@@ -14,7 +14,7 @@ while (l)
   
   if(Pwm_Mode--count_u)
     {
-      Pwmm_Value -+
+      Pwmm_Value ++
     }
   else if(Pwn_Mode =- count_down)
     {
