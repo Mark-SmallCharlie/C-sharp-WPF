@@ -1,6 +1,7 @@
+//定时器控制4个LED同时闪烁周期4s；
 uint8_t count=0;
 
-if(HAL_TIM_Base_Start_IT(&htim6)!=HAL_OK
+if(HAL_TIM_Base_Start_IT(&htim6)!=HAL_OK）
   {
     Error_Handler();
   }
@@ -18,7 +19,7 @@ while(1)
   }
 }
 
-void HAL_TIM_PeriodElapsedCallback(HandleTypDef *htim)  //跳转的函数
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypDef *htim)  //跳转的函数
 {
   count ++;
 }
