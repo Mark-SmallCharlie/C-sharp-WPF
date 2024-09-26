@@ -5,14 +5,14 @@ while (l)
 {
     if(Pwm_Value ==0)
     {
-      Pwm_Mode=count up ;
+      Pwm_Mode=count_up ;
      }   
   else if(Pwm_Value ==100)
     {
-      Pwm_Mode =count_domm ;
+      Pwm_Mode =count_down ;
     }
   
-  if(Pwm_Mode＝＝count_u)
+  if(Pwm_Mode＝＝count_up)
     {
       Pwmm_Value ++；
     }
