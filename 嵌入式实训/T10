@@ -1,4 +1,4 @@
-//呼吸灯LED1~LED8；
+//定时器控制实现2个LED同时闪烁；
 uint8_t count=0;
 if(HAL_TIM_Base_Start_IT(&htim6)!=HAL_OK)
   {
