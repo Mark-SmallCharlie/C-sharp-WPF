@@ -12,11 +12,11 @@ while (l)
       Pwm_Mode =count_domm ;
     }
   
-  if(Pwm_Mode--count_u)
+  if(Pwm_Mode＝＝count_u)
     {
       Pwmm_Value ++；
     }
-  else if(Pwn_Mode =- count_down)
+  else if(Pwn_Mode =＝ count_down)
     {
       Pwm Valpe --;
     }
