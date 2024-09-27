@@ -10,7 +10,7 @@ while(1)
     {
     HAL_GPIO_WirtrnPin(GPIOE,LED3_Pin|LED4_Pin,GPIO_Pin_RESET);
     }  
-     if(count==4)
+    else if(count==4)
     {
     count=0;
     HAL_GPIO_WirtrnPin(GPIOE,LED3_Pin|LED4_Pin,GPIO_Pin_SET);
