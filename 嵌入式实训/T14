@@ -1,4 +1,4 @@
-
+uuint8_t RX_BUFF[]="";
 while(1)
 {
   HAL_UART_Receive(&huart1,RX_BUFF,1,100);
