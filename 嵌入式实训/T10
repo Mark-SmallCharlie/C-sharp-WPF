@@ -1,4 +1,4 @@
-//定时器控制实现2个LED同时闪烁；
+//LED1~8依次点亮；
 uint8_t count=0;
 if(HAL_TIM_Base_Start_IT(&htim6)!=HAL_OK)
   {
