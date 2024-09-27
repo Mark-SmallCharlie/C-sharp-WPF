@@ -16,7 +16,7 @@ while (l)
     {
       Pwmm_Value ++；
     }
-  else if(Pwn_Mode =＝ count_down)
+  else if(Pwn_Mode == count_down)
     {
       Pwm Valpe --;
     }
