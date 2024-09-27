@@ -2,6 +2,11 @@
 uint8_t count=0;
 uint8_t Key_Flag;
 
+if(HAL_TIM_Base_Start_IT(&htim6)!=HAL_OK）
+  {
+    Error_Handler();
+  }
+
 while(1)
 {
   if(key_Flag==1)
