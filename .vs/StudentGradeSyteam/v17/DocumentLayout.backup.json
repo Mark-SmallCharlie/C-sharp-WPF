@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\XKY\\Documents\\AA\u5B66\u4E60\u5C0F\u7EC4PPT\u7B49\u6587\u4EF6\\\u6BD5\u4E1A\u8BBE\u8BA1\\StudentGradeSyteam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C2CE5E3-E8B0-4A3E-90AE-F325092EB0E4}|StudentGradeSyteam\\StudentGradeSystem.csproj|d:\\users\\xky\\documents\\aa\u5B66\u4E60\u5C0F\u7EC4ppt\u7B49\u6587\u4EF6\\\u6BD5\u4E1A\u8BBE\u8BA1\\studentgradesyteam\\studentgradesyteam\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C2CE5E3-E8B0-4A3E-90AE-F325092EB0E4}|StudentGradeSyteam\\StudentGradeSystem.csproj|solutionrelative:studentgradesyteam\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C2CE5E3-E8B0-4A3E-90AE-F325092EB0E4}|StudentGradeSyteam\\StudentGradeSystem.csproj|d:\\users\\xky\\documents\\aa\u5B66\u4E60\u5C0F\u7EC4ppt\u7B49\u6587\u4EF6\\\u6BD5\u4E1A\u8BBE\u8BA1\\studentgradesyteam\\studentgradesyteam\\teacheradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C2CE5E3-E8B0-4A3E-90AE-F325092EB0E4}|StudentGradeSyteam\\StudentGradeSystem.csproj|solutionrelative:studentgradesyteam\\teacheradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C2CE5E3-E8B0-4A3E-90AE-F325092EB0E4}|StudentGradeSyteam\\StudentGradeSystem.csproj|d:\\users\\xky\\documents\\aa\u5B66\u4E60\u5C0F\u7EC4ppt\u7B49\u6587\u4EF6\\\u6BD5\u4E1A\u8BBE\u8BA1\\studentgradesyteam\\studentgradesyteam\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C2CE5E3-E8B0-4A3E-90AE-F325092EB0E4}|StudentGradeSyteam\\StudentGradeSystem.csproj|solutionrelative:studentgradesyteam\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C2CE5E3-E8B0-4A3E-90AE-F325092EB0E4}|StudentGradeSyteam\\StudentGradeSystem.csproj|d:\\users\\xky\\documents\\aa\u5B66\u4E60\u5C0F\u7EC4ppt\u7B49\u6587\u4EF6\\\u6BD5\u4E1A\u8BBE\u8BA1\\studentgradesyteam\\studentgradesyteam\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C2CE5E3-E8B0-4A3E-90AE-F325092EB0E4}|StudentGradeSyteam\\StudentGradeSystem.csproj|solutionrelative:studentgradesyteam\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C2CE5E3-E8B0-4A3E-90AE-F325092EB0E4}|StudentGradeSyteam\\StudentGradeSystem.csproj|d:\\users\\xky\\documents\\aa\u5B66\u4E60\u5C0F\u7EC4ppt\u7B49\u6587\u4EF6\\\u6BD5\u4E1A\u8BBE\u8BA1\\studentgradesyteam\\studentgradesyteam\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6C2CE5E3-E8B0-4A3E-90AE-F325092EB0E4}|StudentGradeSyteam\\StudentGradeSystem.csproj|solutionrelative:studentgradesyteam\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 176,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dao.cs",
+              "DocumentMoniker": "D:\\Users\\XKY\\Documents\\AA\u5B66\u4E60\u5C0F\u7EC4PPT\u7B49\u6587\u4EF6\\\u6BD5\u4E1A\u8BBE\u8BA1\\StudentGradeSyteam\\StudentGradeSyteam\\Dao.cs",
+              "RelativeDocumentMoniker": "StudentGradeSyteam\\Dao.cs",
+              "ToolTip": "D:\\Users\\XKY\\Documents\\AA\u5B66\u4E60\u5C0F\u7EC4PPT\u7B49\u6587\u4EF6\\\u6BD5\u4E1A\u8BBE\u8BA1\\StudentGradeSyteam\\StudentGradeSyteam\\Dao.cs",
+              "RelativeToolTip": "StudentGradeSyteam\\Dao.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T10:04:38.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\XKY\\Documents\\AA\u5B66\u4E60\u5C0F\u7EC4PPT\u7B49\u6587\u4EF6\\\u6BD5\u4E1A\u8BBE\u8BA1\\StudentGradeSyteam\\StudentGradeSyteam\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "StudentGradeSyteam\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Users\\XKY\\Documents\\AA\u5B66\u4E60\u5C0F\u7EC4PPT\u7B49\u6587\u4EF6\\\u6BD5\u4E1A\u8BBE\u8BA1\\StudentGradeSyteam\\StudentGradeSyteam\\MainWindow.xaml.cs",
+              "RelativeToolTip": "StudentGradeSyteam\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAqwA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T14:34:45.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ROOT.cs",
+              "DocumentMoniker": "D:\\Users\\XKY\\Documents\\AA\u5B66\u4E60\u5C0F\u7EC4PPT\u7B49\u6587\u4EF6\\\u6BD5\u4E1A\u8BBE\u8BA1\\StudentGradeSyteam\\StudentGradeSyteam\\ROOT.cs",
+              "RelativeDocumentMoniker": "StudentGradeSyteam\\ROOT.cs",
+              "ToolTip": "D:\\Users\\XKY\\Documents\\AA\u5B66\u4E60\u5C0F\u7EC4PPT\u7B49\u6587\u4EF6\\\u6BD5\u4E1A\u8BBE\u8BA1\\StudentGradeSyteam\\StudentGradeSyteam\\ROOT.cs",
+              "RelativeToolTip": "StudentGradeSyteam\\ROOT.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T13:22:31.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeacherAdd.cs",
+              "DocumentMoniker": "D:\\Users\\XKY\\Documents\\AA\u5B66\u4E60\u5C0F\u7EC4PPT\u7B49\u6587\u4EF6\\\u6BD5\u4E1A\u8BBE\u8BA1\\StudentGradeSyteam\\StudentGradeSyteam\\TeacherAdd.cs",
+              "RelativeDocumentMoniker": "StudentGradeSyteam\\TeacherAdd.cs",
+              "ToolTip": "D:\\Users\\XKY\\Documents\\AA\u5B66\u4E60\u5C0F\u7EC4PPT\u7B49\u6587\u4EF6\\\u6BD5\u4E1A\u8BBE\u8BA1\\StudentGradeSyteam\\StudentGradeSyteam\\TeacherAdd.cs",
+              "RelativeToolTip": "StudentGradeSyteam\\TeacherAdd.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAgwGAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T13:21:39.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Users\\XKY\\Documents\\AA\u5B66\u4E60\u5C0F\u7EC4PPT\u7B49\u6587\u4EF6\\\u6BD5\u4E1A\u8BBE\u8BA1\\StudentGradeSyteam\\StudentGradeSyteam\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "StudentGradeSyteam\\MainWindow.xaml",
+              "ToolTip": "D:\\Users\\XKY\\Documents\\AA\u5B66\u4E60\u5C0F\u7EC4PPT\u7B49\u6587\u4EF6\\\u6BD5\u4E1A\u8BBE\u8BA1\\StudentGradeSyteam\\StudentGradeSyteam\\MainWindow.xaml",
+              "RelativeToolTip": "StudentGradeSyteam\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-25T14:37:37.533Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
