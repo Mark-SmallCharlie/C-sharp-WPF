@@ -1,0 +1,69 @@
+﻿<Window x:Class="StudentGradeSyteam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StudentGradeSyteam"
+         xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+ xmlns:wfi ="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+
+        mc:Ignorable="d"
+        Title="MainWindow" Height="401" Width="574">
+    <Grid Height="NaN" Margin="0,0,0,3" Width="NaN">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Image HorizontalAlignment="Center" Height="285" Margin="0,43,0,0" VerticalAlignment="Top" Width="574" Source="/0862a6cda3852a5.jpg"/>
+        <Canvas Opacity="0.5" Margin="141,82,120,69">
+            <Canvas.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF53BCFF" Offset="0"/>
+                    <GradientStop Color="#FF5ECA83" Offset="0.936"/>
+                </LinearGradientBrush>
+            </Canvas.Background>
+        </Canvas>
+        <Canvas Height="174" Width="238" Background="White" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,100,0,0">
+            <Label Content="用户名：" Height="26" Width="58" HorizontalAlignment="Left" Canvas.Left="37" Canvas.Top="20" VerticalAlignment="Top"/>
+            <Label Content="密码：" RenderTransformOrigin="0.804,0.413" Height="25" Width="46" HorizontalAlignment="Left" Canvas.Left="39" Canvas.Top="61" VerticalAlignment="Top"/>
+            <Label Content="权限：" Height="25" Width="46" HorizontalAlignment="Left" Canvas.Left="37" Canvas.Top="98" VerticalAlignment="Center"/>
+            <TextBox x:Name="txtusername" TextWrapping="Wrap" Width="119" Height="25" TextChanged="TextBox_TextChanged" RenderTransformOrigin="0.428,0.536" HorizontalAlignment="Left" Canvas.Left="103" Canvas.Top="20" VerticalAlignment="Top"/>
+            <TextBox x:Name="txtpassword" TextWrapping="Wrap" Width="119" Height="24" TextChanged="password_TextChanged" HorizontalAlignment="Left" Canvas.Left="103" Canvas.Top="61" VerticalAlignment="Top"/>
+            <ComboBox x:Name="comboBox" Width="120" SelectionChanged="ComboBox_SelectionChanged" Cursor="" Height="21" HorizontalAlignment="Left" Canvas.Left="102" Canvas.Top="102" VerticalAlignment="Center">
+                <ComboBoxItem Content="学生"/>
+                <ComboBoxItem Content="教师"/>
+                <ComboBoxItem Content="管理员"/>
+
+            </ComboBox>
+            <Button x:Name="logic" Content="登录" Height="23" Width="66" Click="logic_Click" HorizontalAlignment="Left" Canvas.Left="39" Canvas.Top="145" VerticalAlignment="Center" RenderTransformOrigin="0.778,0.524"/>
+            <Button x:Name="cancel" Content="取消" Height="23" Width="66" Click="Button_Click" HorizontalAlignment="Center" Canvas.Left="156" Canvas.Top="145" VerticalAlignment="Center"/>
+        </Canvas>
+        <Canvas Margin="0,316,0,0" Height="70" VerticalAlignment="Top">
+            <Canvas.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2A3B4C"/>
+                    <GradientStop Color="#FF3086B3" Offset="1"/>
+                    <GradientStop Color="#FF2C546E" Offset="0"/>
+                    <GradientStop Color="#FF2F3CA5" Offset="0.805"/>
+                </LinearGradientBrush>
+            </Canvas.Background>
+        </Canvas>
+        <Grid HorizontalAlignment="Center" Height="43" VerticalAlignment="Top" Width="574">
+            <Canvas>
+                <Canvas.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF47B9E0" Offset="1"/>
+                        <GradientStop Color="#FF102932" Offset="0"/>
+                        <GradientStop Color="#FF1E4E5E" Offset="0"/>
+                        <GradientStop Color="#FF3716B1" Offset="0"/>
+                    </LinearGradientBrush>
+                </Canvas.Background>
+                <Label Content="学生成绩管理系统登录界面" Canvas.Left="169" Canvas.Top="5" FontSize="20" FontWeight="Bold" FontFamily="FangSong" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            </Canvas>
+        </Grid>
+        <ProgressBar Grid.Column="1" HorizontalAlignment="Left" Height="10" Margin="126,166,0,0" VerticalAlignment="Top" Width="100"/>
+
+
+    </Grid>
+</Window>

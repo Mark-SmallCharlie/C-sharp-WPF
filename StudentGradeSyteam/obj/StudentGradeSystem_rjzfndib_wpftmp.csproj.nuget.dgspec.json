@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj",
+        "projectName": "StudentGradeSystem",
+        "projectPath": "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj",
+        "packagesPath": "C:\\Users\\kaiyi\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\StudentGradeSyteam\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kaiyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\成绩可视化分析\\成绩可视化分析.csproj": {
+                "projectPath": "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\成绩可视化分析\\成绩可视化分析.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "LiveCharts.WinForms.NetCore3": {
+              "target": "Package",
+              "version": "[0.9.8, )"
+            },
+            "LiveCharts.Wpf.NetCore3": {
+              "target": "Package",
+              "version": "[0.9.8, )"
+            },
+            "ScottPlot.WinForms": {
+              "target": "Package",
+              "version": "[5.0.47, )"
+            },
+            "Syncfusion.SfChart.WPF": {
+              "target": "Package",
+              "version": "[28.1.35, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\成绩可视化分析\\成绩可视化分析.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\成绩可视化分析\\成绩可视化分析.csproj",
+        "projectName": "成绩可视化分析",
+        "projectPath": "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\成绩可视化分析\\成绩可视化分析.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
