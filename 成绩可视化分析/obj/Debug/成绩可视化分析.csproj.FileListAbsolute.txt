@@ -8,3 +8,13 @@ D:\Users\XKY\Documents\AA学习小组PPT等文件\毕业设计\StudentGradeSytea
 D:\Users\XKY\Documents\AA学习小组PPT等文件\毕业设计\StudentGradeSyteam\成绩可视化分析\obj\Debug\成绩可视化分析.csproj.CoreCompileInputs.cache
 D:\Users\XKY\Documents\AA学习小组PPT等文件\毕业设计\StudentGradeSyteam\成绩可视化分析\obj\Debug\成绩可视化分析.exe
 D:\Users\XKY\Documents\AA学习小组PPT等文件\毕业设计\StudentGradeSyteam\成绩可视化分析\obj\Debug\成绩可视化分析.pdb
+D:\Users\XKY\Documents\AAStudyFlies\毕业设计旧\StudentGradeSyteam\成绩可视化分析\bin\Debug\成绩可视化分析.exe.config
+D:\Users\XKY\Documents\AAStudyFlies\毕业设计旧\StudentGradeSyteam\成绩可视化分析\bin\Debug\成绩可视化分析.exe
+D:\Users\XKY\Documents\AAStudyFlies\毕业设计旧\StudentGradeSyteam\成绩可视化分析\bin\Debug\成绩可视化分析.pdb
+D:\Users\XKY\Documents\AAStudyFlies\毕业设计旧\StudentGradeSyteam\成绩可视化分析\obj\Debug\成绩可视化分析.csproj.AssemblyReference.cache
+D:\Users\XKY\Documents\AAStudyFlies\毕业设计旧\StudentGradeSyteam\成绩可视化分析\obj\Debug\成绩可视化分析.Form2.resources
+D:\Users\XKY\Documents\AAStudyFlies\毕业设计旧\StudentGradeSyteam\成绩可视化分析\obj\Debug\成绩可视化分析.Properties.Resources.resources
+D:\Users\XKY\Documents\AAStudyFlies\毕业设计旧\StudentGradeSyteam\成绩可视化分析\obj\Debug\成绩可视化分析.csproj.GenerateResource.cache
+D:\Users\XKY\Documents\AAStudyFlies\毕业设计旧\StudentGradeSyteam\成绩可视化分析\obj\Debug\成绩可视化分析.csproj.CoreCompileInputs.cache
+D:\Users\XKY\Documents\AAStudyFlies\毕业设计旧\StudentGradeSyteam\成绩可视化分析\obj\Debug\成绩可视化分析.exe
+D:\Users\XKY\Documents\AAStudyFlies\毕业设计旧\StudentGradeSyteam\成绩可视化分析\obj\Debug\成绩可视化分析.pdb
