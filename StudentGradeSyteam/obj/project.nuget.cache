@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4MX6QCjhq+E=",
+  "dgSpecHash": "Ym713NIW6DI=",
   "success": true,
-  "projectFilePath": "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj",
+  "projectFilePath": "D:\\Users\\XKY\\Documents\\AAStudyFlies\\毕业设计旧\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kaiyi\\.nuget\\packages\\harfbuzzsharp\\7.3.0.3\\harfbuzzsharp.7.3.0.3.nupkg.sha512",
     "C:\\Users\\kaiyi\\.nuget\\packages\\harfbuzzsharp.nativeassets.linux\\7.3.0.3\\harfbuzzsharp.nativeassets.linux.7.3.0.3.nupkg.sha512",
@@ -42,9 +42,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net6.0-windows7.0”还原包“OpenTK 3.1.0”。此包可能与项目不完全兼容。",
-      "projectPath": "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj",
+      "projectPath": "D:\\Users\\XKY\\Documents\\AAStudyFlies\\毕业设计旧\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj",
+      "filePath": "D:\\Users\\XKY\\Documents\\AAStudyFlies\\毕业设计旧\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj",
       "libraryId": "OpenTK",
       "targetGraphs": [
         "net6.0-windows7.0"
@@ -54,9 +54,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net6.0-windows7.0”还原包“OpenTK.GLControl 3.1.0”。此包可能与项目不完全兼容。",
-      "projectPath": "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj",
+      "projectPath": "D:\\Users\\XKY\\Documents\\AAStudyFlies\\毕业设计旧\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj",
+      "filePath": "D:\\Users\\XKY\\Documents\\AAStudyFlies\\毕业设计旧\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj",
       "libraryId": "OpenTK.GLControl",
       "targetGraphs": [
         "net6.0-windows7.0"

@@ -1271,11 +1271,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj",
+      "projectUniqueName": "D:\\Users\\XKY\\Documents\\AAStudyFlies\\毕业设计旧\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj",
       "projectName": "StudentGradeSystem",
-      "projectPath": "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj",
+      "projectPath": "D:\\Users\\XKY\\Documents\\AAStudyFlies\\毕业设计旧\\StudentGradeSyteam\\StudentGradeSyteam\\StudentGradeSystem.csproj",
       "packagesPath": "C:\\Users\\kaiyi\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\StudentGradeSyteam\\obj\\",
+      "outputPath": "D:\\Users\\XKY\\Documents\\AAStudyFlies\\毕业设计旧\\StudentGradeSyteam\\StudentGradeSyteam\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1296,8 +1296,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\成绩可视化分析\\成绩可视化分析.csproj": {
-              "projectPath": "D:\\Users\\XKY\\Documents\\AA学习小组PPT等文件\\毕业设计\\StudentGradeSyteam\\成绩可视化分析\\成绩可视化分析.csproj"
+            "D:\\Users\\XKY\\Documents\\AAStudyFlies\\毕业设计旧\\StudentGradeSyteam\\成绩可视化分析\\成绩可视化分析.csproj": {
+              "projectPath": "D:\\Users\\XKY\\Documents\\AAStudyFlies\\毕业设计旧\\StudentGradeSyteam\\成绩可视化分析\\成绩可视化分析.csproj"
             }
           }
         }
